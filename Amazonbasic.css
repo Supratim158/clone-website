@@ -1,0 +1,234 @@
+*{
+    margin : 0;
+    font-family: Arial, Helvetica, sans-serif ;
+    border: border box;
+}
+
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.border{
+    border: 0.1rem transparent #ffffff
+}
+.border:hover{
+    border: 0.05rem solid #ffffff
+}
+.navlogo{
+    height: 50px;
+    width: 110px;
+}
+.logo{
+    background-size: cover;
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 110px;
+}
+
+/* nav box 2 */
+.add1{
+    color: #cccccc;
+    font-size: 0.7rem;
+    margin-left: 15px
+}
+.add2{
+    margin-left: 3px;
+}
+.icon{
+    display: flex;
+}
+
+/* nav box 3 */
+.navsearch{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #d89c04;
+    width: 750px;
+    height: 33px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+.navsearch{
+    border: 0.1rem transparent #ffffff
+}
+.navsearch:hover{
+    border: 0.1rem solid #e39c05
+}
+.searchselect{
+    background-color: #f3f3f3;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.searchinput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:  1.5rem;
+    color: #0f1111;
+}
+/* nav box 4 */
+.navlang{
+    font-size:  1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchlang{
+    background-color: #0f1111;
+    color: #cccccc;
+    border: none;
+    width: 45px;
+}
+/* nav box 5 */
+.hello{
+    font-size: 0.7rem;
+    color: #cccccc;
+}
+.account{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+/* nav box 5 */
+.ret{
+    font-size: 0.7rem;
+    color: #cccccc;
+}
+.ord{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.navcart{
+    display:flex;
+    align-items: baseline;
+    
+}
+.navcart i{
+    font-size: 35px;
+}
+.navcart p{
+    margin: 5px;
+}
+
+/* panel */
+
+.panel{
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panelall{
+    margin-left: 15px;
+}
+.panelops{
+    margin: 15px;
+    display: flex;
+    width: 90%;
+    
+}
+.panelops p{
+    font-size: 0.85rem;
+    margin-left: 20px;
+}
+
+/* herosection */
+
+.herosection{
+    background-image: url("61IlupYtztL._SX1500_.jpg");
+    background-size: cover;
+    height:330px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.heromsg{
+    background-color: #ffffff;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 97%;
+    margin-bottom: 25px;
+}
+.heromsg a{
+    color: #007185;
+}
+
+/* shop section */
+.shop{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: #ade8fa;
+}
+.box{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 23%;
+    height: 400px;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+}
+.boximg{
+    height: 325px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boxcontent{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.boxcontent a{
+    font-size: 0.8rem;
+    color: #007185;
+}
+.signin{
+    margin-top: 50px;
+    border: 0.25px solid;
+    border-radius: 4px;
+}
+.signin h2{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signinbutton{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.signin p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 0.7rem;
+}
+.signin a{
+    color: #007185;
+}
